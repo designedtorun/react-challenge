@@ -4,7 +4,7 @@ This repo contains the boilerplate code needed to begin the RUN React Challenge.
 
 To get set up, do the following:
 1. Click **Use this template** and select **Create a new repository**
-2. Add your name to your new repository, and add [sara-incitement](https://github.com/sara-incitement) as a collaborator.
+2. Add your name to your new repository, and add [sara-incitement](https://github.com/sara-incitement) as a collaborator. Be sure to keep your new repository private.
 3. Add an .env file to the root directory containing the Supabase variables needed for the application. The variables will be emailed to you in a password protected file. Password to open that file is is run-react-challenge.
 4. Run ```npm install``` and then ```npm run dev``` to spin up your local instance.
 
