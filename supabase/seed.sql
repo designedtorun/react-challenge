@@ -1,35 +1,3 @@
-create table
-  Site (
-    id bigint primary key generated always as identity,
-    created_at timestamp with time zone,
-    updated_at timestamp with time zone,
-    site_name text
-  );
-
-create table
-  Headline (
-    id bigint primary key generated always as identity,
-    created_at timestamp with time zone,
-    text text,
-    site_id bigint references Site (id)
-  );
-
-create table
-  URL (
-    id bigint primary key generated always as identity,
-    created_at timestamp with time zone,
-    text text,
-    site_id bigint references Site (id)
-  );
-
-create table
-  BodyCopy (
-    id bigint primary key generated always as identity,
-    created_at timestamp with time zone,
-    text text,
-    site_id bigint references Site (id)
-  );
-
 insert into
   "Site" (created_at, updated_at, site_name)
 values
