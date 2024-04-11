@@ -1,8 +1,13 @@
-# React + Vite
+# RUN React Challenge
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This repo contains the boilerplate code needed to begin the RUN React Challenge. Instructions for the challenge can be found [here](https://docs.google.com/document/d/1kl9EfwfWAvPgd2m4ZFJt6d7fC-cE-MTGez2dxukkvRw/).
 
-Currently, two official plugins are available:
+To get set up, do the following:
+1. Clone the repo
+2. Create a new branch off of main (please put your name in your branch)
+3. Add an .env file to the root directory containing the Supabase variables needed for the application. The variables will be emailed to you in a password protected file. Password to open that file is is run-react-challenge.
+4. Run ```npm install``` and then ```npm run dev``` to spin up your local instance.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+At this point, test the local application to make sure you're able to write to Supabase. You should be able to edit some text for one of the sites, click out of it to trigger an onBlur event, and refresh the page to see the data persisting.
+
+You will be given access to the database so you can create/modify tables and rules as you see fit.
