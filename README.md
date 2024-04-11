@@ -10,4 +10,4 @@ To get set up, do the following:
 
 At this point, test the local application to make sure you're able to write to Supabase. You should be able to edit some text for one of the sites, click out of it to trigger an onBlur event, and refresh the page to see the data persisting.
 
-You will be given access to the database so you can create/modify tables and rules as you see fit.
+You will be given access to the database via the Supabase platform so you can create/modify tables and rules as you see fit.
